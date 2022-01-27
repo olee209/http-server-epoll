@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	./makefile	/^CC=gcc$/;"	m
+MAXSIZE	./epoll_server.c	15;"	d	file:
+_EPOLL_SERVER_H	./epoll_server.h	2;"	d
+decode_str	./epoll_server.c	/^void decode_str(char *to, char *from)$/;"	f
+disconnect	./epoll_server.c	/^void disconnect(int cfd, int epfd)$/;"	f
+do_accept	./epoll_server.c	/^void do_accept(int lfd, int epfd) {$/;"	f
+do_read	./epoll_server.c	/^void do_read(int cfd, int epfd)$/;"	f
+encode_str	./epoll_server.c	/^void encode_str(char* to, int tosize, const char* from)$/;"	f
+epoll_run	./epoll_server.c	/^void epoll_run(int port)$/;"	f
+get_file_type	./epoll_server.c	/^const char *get_file_type(const char *name)$/;"	f
+get_line	./epoll_server.c	/^int get_line(int sock, char *buf, int size)$/;"	f
+hexit	./epoll_server.c	/^int hexit(char c)$/;"	f
+http_request	./epoll_server.c	/^void http_request(int cfd, const char* request) {$/;"	f
+init_listen_fd	./epoll_server.c	/^int init_listen_fd(int port, int epfd) {$/;"	f
+main	./main.c	/^int main(int argc, const char* argv[])$/;"	f
+myArgs	./makefile	/^myArgs= -Wall -g $/;"	m
+obj	./makefile	/^obj = $(patsubst .\/%.c, .\/%.o, $(src)) $/;"	m
+send_dir	./epoll_server.c	/^void send_dir(int cfd, const char* dirname) {$/;"	f
+send_error	./epoll_server.c	/^void send_error(int cfd, int status, const char* title, const char* text) {$/;"	f
+send_file	./epoll_server.c	/^void send_file(int cfd, const char* filename) {$/;"	f
+send_respond_head	./epoll_server.c	/^void send_respond_head(int cfd, int no, const char* desc, const char* type, long len) {$/;"	f
+src	./makefile	/^src = $(wildcard .\/*.c)  $/;"	m
+target	./makefile	/^target=server$/;"	m
